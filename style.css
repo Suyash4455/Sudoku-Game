@@ -1,0 +1,44 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #e0f7ff; /* Faint blue */
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  color: #4B0082;
+  margin-top: 20px;
+}
+
+.sudoku-container {
+  display: grid;
+  grid-template-columns: repeat(9, 40px);
+  grid-gap: 2px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+input {
+  width: 38px;
+  height: 38px;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #ffffff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4B0082;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #6A0DAD;
+}
